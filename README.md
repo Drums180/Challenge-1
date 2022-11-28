@@ -31,3 +31,8 @@ There are two types of Challenges in this course. Each one is designed to prepar
 There are two types of Challenges in this course. Each one is designed to prepare you for a scenario that you're likely to encounter as a web developer.
 
 <img width="884" alt="Captura de pantalla 2022-11-28 a la(s) 17 15 21" src="https://user-images.githubusercontent.com/118247139/204400582-344514ad-1d83-4687-ab20-49ff1ee89473.png">
+
+## Recommendations
+
+There are two types of Challenges in this course. Each one is designed to prepare you for a scenario that you're likely to encounter as a web developer.
+
