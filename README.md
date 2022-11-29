@@ -5,7 +5,7 @@
 The innitial html code given uses '<div>' tags instead of proper html semantics like 'header', 'aside', 'section' and 'article' which consist of the basic elements. In order to have a proper semantic structure, I replace every tag with '<div>' for the proper semantic equivalent, results shown in the following image:
 
 <img width="638" alt="Captura de pantalla 2022-11-28 a la(s) 20 08 33" src="https://user-images.githubusercontent.com/118247139/204421048-33514c98-1e3f-449c-b8c5-f988cdce3655.png">
-> **Note**: The tag '<span>' wassn´t changed as it was necessary for the divison and conexion in the css.style file and did not interrupt a proper semantic flow.
+> **Note** : The tag '<span>' wassn´t changed as it was necessary for the divison and conexion in the css.style file and did not interrupt a proper semantic flow.
 
 ## Criteria 2
 
