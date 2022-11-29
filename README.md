@@ -2,7 +2,7 @@
 
 ## Criteria 1: Semantic HTML Elements
 
-The innitial html code given uses 'div' tags instead of proper html semantics like 'header', 'aside', 'section' and 'article' which consist of the basic elements. In order to have a proper semantic structure, I replace every tag with '<div>' for the proper semantic equivalent, results shown in the following image:
+The innitial html code given uses 'div' tags instead of proper html semantics like 'header', 'aside', 'section' and 'article' which consist of the basic elements. In order to have a proper semantic structure, I replace every tag with 'div' for the proper semantic equivalent, results shown in the following image:
 
 <img width="638" alt="Captura de pantalla 2022-11-28 a la(s) 20 08 33" src="https://user-images.githubusercontent.com/118247139/204421048-33514c98-1e3f-449c-b8c5-f988cdce3655.png">
 
@@ -20,9 +20,9 @@ As both a user and a programmer, I want to be able to see a detailed description
 
 <img width="760" alt="Captura de pantalla 2022-11-28 a la(s) 17 15 50" src="https://user-images.githubusercontent.com/118247139/204400658-f5ed04d1-f280-4997-bc73-436d0b1151a8.png">
 
-## Criteria 4
+## Criteria 4: Sequential Order
 
-There are two types of Challenges in this course. Each one is designed to prepare you for a scenario that you're likely to encounter as a web developer.
+In order to have easier accessibility when editing the website, a sequential structure must be made where the CSS file is directly related to the HTML file. For this case most of the variables in the CSS file are out of order and therefore it is necessary to make corrections as follows.
 
 <img width="944" alt="Captura de pantalla 2022-11-28 a la(s) 17 14 07" src="https://user-images.githubusercontent.com/118247139/204400460-864b2014-fcf9-468f-b128-1bfcdd9a82f9.png">
 <img width="987" alt="Captura de pantalla 2022-11-28 a la(s) 17 14 20" src="https://user-images.githubusercontent.com/118247139/204400474-2c16d665-20e5-4c61-94a9-3f74f22d58ff.png">
@@ -30,11 +30,13 @@ There are two types of Challenges in this course. Each one is designed to prepar
 
 ## Fixing Bugs
 
-There are two types of Challenges in this course. Each one is designed to prepare you for a scenario that you're likely to encounter as a web developer.
+In order not to affect the functionality of the website for users, corrections were made related to failures in the use of links within the same page found in the navigation menu. This is because the id element was not linked properly, so the corrections are made to have a functional and complete site.
 
 <img width="884" alt="Captura de pantalla 2022-11-28 a la(s) 17 15 21" src="https://user-images.githubusercontent.com/118247139/204400582-344514ad-1d83-4687-ab20-49ff1ee89473.png">
 
 ## Recommendations
 
-There are two types of Challenges in this course. Each one is designed to prepare you for a scenario that you're likely to encounter as a web developer.
+Within the file there are different comments both in the HTML file and in the CSS of possible code configurations that can allow the page to have the best performance. Among these comments is the possibility of anchoring the header so that the user can access the menu whenever they need it, changing the title to have a more suitable one that matches the website, joining multiple elements in CSS to save code, etc.
+
+> Visualize the final page [here](https://drums180.github.io/Challenge-1/#social-media-marketing)
 
