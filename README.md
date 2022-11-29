@@ -2,11 +2,11 @@
 
 ## Criteria 1: Semantic HTML Elements
 
-The innitial html code given uses 'div' tags instead of proper html semantics like 'header', 'aside', 'section' and 'article' which consist of the basic elements. In order to have a proper semantic structure, I replace every tag with 'div' for the proper semantic equivalent, results shown in the following image:
+The innitial html code given uses `<div>` tags instead of proper html semantics like `<header>`, `<aside>`, `<section>` and `<article>` which consist of the basic elements. In order to have a proper semantic structure, I replace every tag with `<div>` for the proper semantic equivalent, results shown in the following image:
 
 <img width="638" alt="Captura de pantalla 2022-11-28 a la(s) 20 08 33" src="https://user-images.githubusercontent.com/118247139/204421048-33514c98-1e3f-449c-b8c5-f988cdce3655.png">
 
-> ###### Note: The tag 'span' wasn´t changed as it was necessary for the divison and conexion in the css.style file and did not interrupt a proper semantic flow.
+> ###### Note: The tag `<span>` wasn´t changed as it was necessary for the divison and conexion in the css.style file and did not interrupt a proper semantic flow.
 
 ## Criteria 2: Logical HTML Structure
 
@@ -16,7 +16,7 @@ Another problem presented by the innitial html code is the structure of the docu
 
 ## Criteria 3: Alt Attributes in Images
 
-As both a user and a programmer, I want to be able to see a detailed description of the image I'm going to position so that I have to keep accessing this file whenever I want to remember what it is. From this, and from the criteria given in the initial file, a brief description of the images used within the website is given, appended with 'alt' format within the 'img' tag.
+As both a user and a programmer, I want to be able to see a detailed description of the image I'm going to position so that I have to keep accessing this file whenever I want to remember what it is. From this, and from the criteria given in the initial file, a brief description of the images used within the website is given, appended with `alt` format within the `<img>` tag.
 
 <img width="760" alt="Captura de pantalla 2022-11-28 a la(s) 17 15 50" src="https://user-images.githubusercontent.com/118247139/204400658-f5ed04d1-f280-4997-bc73-436d0b1151a8.png">
 
@@ -32,11 +32,25 @@ In order to have easier accessibility when editing the website, a sequential str
 
 In order not to affect the functionality of the website for users, corrections were made related to failures in the use of links within the same page found in the navigation menu. This is because the id element was not linked properly, so the corrections are made to have a functional and complete site.
 
+```
+<article id="search-engine-optimization" class="search-engine-optimization">
+        <!-- id missing in order to proper link functionality-->
+```
+
 <img width="884" alt="Captura de pantalla 2022-11-28 a la(s) 17 15 21" src="https://user-images.githubusercontent.com/118247139/204400582-344514ad-1d83-4687-ab20-49ff1ee89473.png">
 
 ## Recommendations
 
 Within the file there are different comments both in the HTML file and in the CSS of possible code configurations that can allow the page to have the best performance. Among these comments is the possibility of anchoring the header so that the user can access the menu whenever they need it, changing the title to have a more suitable one that matches the website, joining multiple elements in CSS to save code, etc.
+
+Example (extraction of code):
+```
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2   {
+    /* joined the 3 categories in order to reduce space in code as all share the same characteristics*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+```
 
 > Visualize the final page [here](https://drums180.github.io/Challenge-1/#social-media-marketing)
 
