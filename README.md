@@ -8,15 +8,15 @@ The innitial html code given uses 'div' tags instead of proper html semantics li
 
 > ###### Note: The tag 'span' wasn´t changed as it was necessary for the divison and conexion in the css.style file and did not interrupt a proper semantic flow.
 
-## Criteria 2
+## Criteria 2: Logical HTML Structure
 
-There are two types of Challenges in this course. Each one is designed to prepare you for a scenario that you're likely to encounter as a web developer.
+Another problem presented by the innitial html code is the structure of the document, where the file is not only worngly distributed but also has problems in funcionallity that directly affected the website. For this, a semantic logical structure was placed and comments where made inside the file that detail the process and explain the changes made.
 
+<img width="668" alt="Captura de pantalla 2022-11-29 a la(s) 0 14 33" src="https://user-images.githubusercontent.com/118247139/204452959-f52112e8-a32e-4514-add2-8f4739711cd0.png">
 
+## Criteria 3: Alt Attributes in Images
 
-## Criteria 3
-
-There are two types of Challenges in this course. Each one is designed to prepare you for a scenario that you're likely to encounter as a web developer.
+As both a user and a programmer, I want to be able to see a detailed description of the image I'm going to position so that I have to keep accessing this file whenever I want to remember what it is. From this, and from the criteria given in the initial file, a brief description of the images used within the website is given, appended with 'alt' format within the 'img' tag.
 
 <img width="760" alt="Captura de pantalla 2022-11-28 a la(s) 17 15 50" src="https://user-images.githubusercontent.com/118247139/204400658-f5ed04d1-f280-4997-bc73-436d0b1151a8.png">
 
